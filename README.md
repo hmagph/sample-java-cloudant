@@ -17,3 +17,4 @@ Note that the config file is using environment variables to abstract away target
 
 Also note that the config files is customizing the deploy script to also create a backend service (Cloudant) right before the CF PUSH action.
 In earlier version of the Deploy To Bluemix button, service creation had to be driven via a manifest.yml unofficial extension ("declared-services"). This is no longer necessary using this new support for pipeline configuration.
+ 

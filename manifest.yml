@@ -8,6 +8,5 @@ applications:
   image: https://console.ng.bluemix.net/rest/templates/CloudantJavaBPTemplate/cachedIcon/large/0
   path: JavaCloudantDB.war
   domain: mybluemix.net
-  instances: 1
-  memory: 512M
+  instances: 256m
   
